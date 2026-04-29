@@ -1,7 +1,8 @@
-import podex from "../../assets/images/dictionary.jpg";
-import lamp from "../../assets/images/rest.jpg";
-import ecoenzyme from "../../assets/images/vscode.jpg";
-import ambu from "../../assets/images/pizzapic.jpg";
+import podex from "../../assets/images/podex.png";
+import lamp from "../../assets/images/lamp.png";
+import ecoenzyme from "../../assets/images/ecoenzyme.png";
+import ambu from "../../assets/images/ambu.png";
+import bank from "../../assets/images/bank.png";
 export const project = [
   {
     title: "Eco-Enzyme Quality Monitoring System",
@@ -10,7 +11,6 @@ export const project = [
     image: ecoenzyme,
     tags: ["php", "css", "c++", "mysql"],
     sourceCode: "https://github.com/JerrardJ/eco-enzyme-quality-monitoring-system",
-    demo: "https://dashboard-eco-enzyme.infinityfreeapp.com/login.php",
   },
   {
     title: "Dapur Ambu Kuliner",
@@ -19,7 +19,6 @@ export const project = [
     image: ambu,
     tags: ["php", "css", "javascript", "mysql"],
     sourceCode: "https://github.com/JerrardJ/dapur-ambu-kuliner",
-    demo: "",
   },
   {
     title: "Smart Lamp",
@@ -28,7 +27,6 @@ export const project = [
     image: lamp,
     tags: ["html", "css", "javascript"],
     sourceCode: "https://github.com/JerrardJ/SmartLamp",
-    demo: "",
   },
   {
     title: "Pokemon Dex",
@@ -37,15 +35,13 @@ export const project = [
     image: podex,
     tags: ["java"],
     sourceCode: "https://github.com/JerrardJ/Pokemon-Dex",
-    demo: "",
   },
   {
     title: "Bank Indonesia Augmented Reality",
     description:
       "This innovative Augmented Reality application provides an immersive experience by displaying a detailed digital projection of the entire Bank Indonesia building located in Bandung. Users can visually explore its magnificent architecture while discovering a unique, captivating fun fact that highlights the rich cultural heritage and profound significance of this iconic historical city landmark.",
-    image: podex,
-    tags: ["java"],
+    image: bank,
+    tags: ["unity", "java", "blender"],
     sourceCode: "https://github.com/JerrardJ/BankIndonesiaAR",
-    demo: "",
   },
 ];
