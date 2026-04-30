@@ -8,7 +8,10 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
 
       <div className="flex flex-col gap-y-2 p-4">
         <h2 className=" text-2xl font-semibold">{title}</h2>
-        <p className=" text-base font-medium text-justify">{desc}</p>
+        <p
+          className=" text-base font-medium text-justify"
+          dangerouslySetInnerHTML={{ __html: desc }}
+        ></p>
         <div className="">
           {tags.map((tag) => {
             return <Tag key={tag} tagName={tag} />;
