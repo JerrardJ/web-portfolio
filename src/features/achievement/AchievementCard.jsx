@@ -12,7 +12,10 @@ function AchievementCard({ url, image, title, desc }) {
 
       <div className="flex flex-col gap-y-2 p-4">
         <h2 className=" text-2xl font-semibold text-accentColor">{title}</h2>
-        <p className=" text-base font-medium text-justify">{desc}</p>
+        <p
+          className=" text-base font-medium text-justify"
+          dangerouslySetInnerHTML={{ __html: desc }}
+        ></p>
         <div className="mt-2 space-x-2">
           <a
             href={url}
