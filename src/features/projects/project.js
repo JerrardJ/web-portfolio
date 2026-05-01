@@ -23,7 +23,7 @@ export const project = [
       "Source : Community Development at Bina Nusantara @Bandung<br/>" +
       "Type : Team Project - 2 Person<br/>" +
       "Role : Front End Developer<br/><br/>" +
-      "Dapur Ambu Kuliner is a web application and digital platform dedicated to celebrating, documenting, and promoting traditional culinary heritage. Focusing on authentic home-cooked meals and family heirloom recipes, this project aims to bring the warmth and comfort of `mother's cooking` into a modern digital format that is easily accessible to food enthusiasts everywhere.",
+      "This website represents a professional digital platform for a culinary MSME named Dapur Ambu, designed to promote traditional Indonesian cuisine through a clean and structured web interface. The website presents key business information, featured dishes, and contact details in a visually consistent red-themed layout that reflects culinary branding and identity. The homepage introduces Dapur Ambu with a brief business profile, highlighting its focus on authentic local dishes.",
     image: ambu,
     tags: ["php", "css", "javascript", "mysql"],
     sourceCode: "https://github.com/JerrardJ/dapur-ambu-kuliner",
