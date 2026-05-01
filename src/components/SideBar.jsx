@@ -5,7 +5,7 @@ import Pencil from "./icons/Pencil";
 import Mail from "./icons/MailIcon";
 import Account from "./icons/AccountIcon";
 import Settings from "./icons/SettingsIcon";
-import StarIcon from "./icons/StarIcon";
+import RunIcon from "./icons/RunIcon";
 import { Link, useLocation } from "react-router-dom";
 const sidebarTopItems = [
   {
@@ -25,7 +25,7 @@ const sidebarTopItems = [
     path: "/achievement",
   },
   {
-    Icon: StarIcon,
+    Icon: RunIcon,
     path: "/experience",
   },
   {
