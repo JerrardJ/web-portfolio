@@ -4,6 +4,7 @@ import About from "./features/about/About";
 import Contact from "./features/contact/Contact";
 import Projects from "./features/projects/Projects";
 import Achievement from "./features/achievement/Achievement";
+import Experience from "./features/experience/Experience";
 import Github, { loader as GithubLoader } from "./features/github/Github";
 import Settings from "./features/settings/Settings";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/achievement",
         element: <Achievement />,
+      },
+      {
+        path: "/experience",
+        element: <Experience />,
       },
       {
         path: "/github",
