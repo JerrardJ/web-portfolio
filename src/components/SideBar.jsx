@@ -13,8 +13,8 @@ const sidebarTopItems = [
     path: "/",
   },
   {
-    Icon: Github,
-    path: "/github",
+    Icon: Mail,
+    path: "/contact",
   },
   {
     Icon: Code,
@@ -29,8 +29,8 @@ const sidebarTopItems = [
     path: "/experience",
   },
   {
-    Icon: Mail,
-    path: "/contact",
+    Icon: Github,
+    path: "/github",
   },
 ];
 const sidebarBottomItems = [

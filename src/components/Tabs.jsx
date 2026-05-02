@@ -3,6 +3,7 @@ import html_icon from "../assets/icons/html_icon.svg";
 import css_icon from "../assets/icons/css_icon.svg";
 import js_icon from "../assets/icons/js_icon.svg";
 import json_icon from "../assets/icons/json_icon.svg";
+import laravel_icon from "../assets/icons/laravel_icon.svg";
 import markdown_icon from "../assets/icons/markdown_icon.svg";
 import { Link, useLocation } from "react-router-dom";
 
@@ -33,9 +34,9 @@ const TabsItems = [
     icon: `${json_icon}`,
   },
   {
-    name: "experience.json",
+    name: "experience.php",
     path: "/experience",
-    icon: `${json_icon}`,
+    icon: `${laravel_icon}`,
   },
   {
     name: "github.md",
