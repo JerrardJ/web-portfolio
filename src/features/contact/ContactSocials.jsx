@@ -6,6 +6,11 @@ function ContactSocials() {
       href: "mailto:jrdjoevin@gmail.com",
     },
     {
+      social: "instagram",
+      un: "@jrd_joe",
+      href: "https://www.instagram.com/jrd_joe",
+    },
+    {
       social: "github",
       un: "JerrardJ",
       href: "https://github.com/JerrardJ/",
