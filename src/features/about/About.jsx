@@ -44,9 +44,7 @@ function About() {
               About me:
             </h2>
             <p className="text-lg font-medium leading-tight text-slate-400 xl:text-xl">
-              As a fresh graduate with over one year of practical experience as a Web Front-end Developer,
-              specializing in building user-friendly, responsive, and content-driven websites. Proficient in HTML,
-              CSS, and JavaScript. Now I'm exploring new programming languages like, laravel, reactjs, tailwindcss and vite.
+              As a fresh graduate with over one year of practical experience as a Web Front-end Developer, specializing in building user-friendly, responsive, and content-driven websites. Proficient in HTML, CSS, and JavaScript. Currently expanding my technical expertise by learning Laravel, React, Tailwind CSS, and Vite. Additionally, I am exploring Computer Vision projects and enhancing my knowledge of Python and OpenCV, with a focus on image processing, image annotation, and preparing high-quality datasets to support more effective AI model training.
             </p>
           </div>
           <div className=" xl:w-1/2">
