@@ -8,10 +8,10 @@ import bank from "../../assets/images/bank.png";
 
 export const project = [{
         title: "Eco-Enzyme Quality Monitoring System",
-        description: "Client : Thesis Project<br/>" +
+        description: "Category : Thesis Project Assignment<br/>" +
             "Source : Bina Nusantara @Bandung (2025)<br/>" +
             "Type : Team Project - 2 Person<br/>" +
-            "Role : Front End Developer<br/><br/>" +
+            "Role : Front-end Web Developer<br/><br/>" +
             "This project uses IoT devices to collect measurement values from an eco-enzyme box. Data is sent to a database and shown through a website dashboard. The system monitors temperature, humidity, gas levels, turbidity, pH, and salt content. The website can notify users about the eco-enzyme condition and indicate whether the liquid is ready for use.",
         image: ecoenzyme,
         tags: ["php", "html", "css", "javascript", "c++", "mysql", "firebase"],
@@ -19,7 +19,7 @@ export const project = [{
     },
     {
         title: "Dapur Ambu Kuliner",
-        description: "Client : Dapur Ambu Kuliner<br/>" +
+        description: "Category : Internship Project Assignment<br/>" +
             "Source : Community Development at Bina Nusantara @Bandung (2024)<br/>" +
             "Type : Team Project - 2 Person<br/>" +
             "Role : Front-end Web Developer<br/><br/>" +
@@ -30,7 +30,7 @@ export const project = [{
     },
     {
         title: "Storage Item Identificator",
-        description: "Client : Computer Vision in IoT Final Project<br/>" +
+        description: "Category : Computer Vision in IoT Final Project Assignment<br/>" +
             "Source : Bina Nusantara @Bandung (2023)<br/>" +
             "Type : Team Project - 4 Person<br/>" +
             "Role : Computer Vision Engineer<br/><br/>" +
@@ -41,7 +41,7 @@ export const project = [{
     },
     {
         title: "O'Rented",
-        description: "Client : Software Engineering Final Project<br/>" +
+        description: "Category : Software Engineering Final Project Assignment<br/>" +
             "Source : Bina Nusantara @Bandung (2022)<br/>" +
             "Type : Team Project - 5 Person<br/>" +
             "Role : Front-end Mobile Developer<br/><br/>" +
@@ -52,7 +52,7 @@ export const project = [{
     },
     {
         title: "Pokemon Dex",
-        description: "Client : Mobile Programming Final Project<br/>" +
+        description: "Category : Mobile Programming Final Project Assignment<br/>" +
             "Source : Bina Nusantara @Bandung (2022)<br/>" +
             "Type : Team Project - 5 Person<br/>" +
             "Role : Front-end Mobile Developer<br/><br/>" +
@@ -63,7 +63,7 @@ export const project = [{
     },
     {
         title: "Bank Indonesia Augmented Reality",
-        description: "Client : Multimedia & Mixed Reality Final Project<br/>" +
+        description: "Category : Multimedia & Mixed Reality Final Project Assignment<br/>" +
             "Source : Bina Nusantara @Bandung (2022)<br/>" +
             "Type : Team Project - 4 Person<br/>" +
             "Role : Front-end Mobile Developer<br/><br/>" +
@@ -74,7 +74,7 @@ export const project = [{
     },
     {
         title: "Smart Lamp",
-        description: "Client : Human & Computer Interaction Final Project<br/>" +
+        description: "Category : Human & Computer Interaction Final Project Assignment<br/>" +
             "Source : Bina Nusantara @Bandung (2021)<br/>" +
             "Type : Team Project - 4 Person<br/>" +
             "Role : Front-end Web Developer<br/><br/>" +
