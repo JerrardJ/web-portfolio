@@ -4,19 +4,9 @@ import css_icon from "../../assets/icons/css_icon.svg";
 import js_icon from "../../assets/icons/js_icon.svg";
 import react_icon from "../../assets/icons/react_icon.svg";
 import tailwind_icon from "../../assets/icons/tw-icon.svg";
-import vite_icon from "../../assets/icons/vite_icon.svg";
-import laravel_icon from "../../assets/icons/laravel_icon.svg";
 
 function About() {
-  const techStack = [
-    html_icon,
-    css_icon,
-    js_icon,
-    react_icon,
-    tailwind_icon,
-    vite_icon,
-    laravel_icon,
-  ];
+  const techStack = [html_icon, css_icon, js_icon, react_icon, tailwind_icon];
 
   return (
     <HelmetProvider>
@@ -30,7 +20,8 @@ function About() {
           </div>
           <div>
             <h1 className="text-center text-3xl font-extrabold text-white xl:text-start xl:text-6xl">
-              Front-End Developer<br /> React | Laravel | Vite
+              Front-End Developer
+              <br /> React | Nextjs | Tailwind CSS
             </h1>
             <h2 className="text-xl max-sm:hidden">
               Hi, I'm Jerrard Joevin. A passionate Front-end Developer <br />{" "}
@@ -44,7 +35,12 @@ function About() {
               About me:
             </h2>
             <p className="text-lg font-medium leading-tight text-slate-400 xl:text-xl">
-              As a fresh graduate with over one year of practical experience as a Web Front-end Developer, specializing in building user-friendly, responsive, and content-driven websites. Proficient in HTML, CSS, and JavaScript. Currently expanding my technical expertise by learning Laravel, React, Tailwind CSS, and Vite. Additionally, I am exploring Computer Vision projects and enhancing my knowledge of Python and OpenCV, with a focus on image processing, image annotation, and preparing high-quality datasets to support more effective AI model training.
+              Frontend developer (React, Next.js, Tailwind CSS) with 1 year of
+              internship and 9+ months of freelance experience. Built a law-firm
+              website scoring 99 desktop / 93 mobile on PageSpeed Insights with
+              100 SEO. Experienced in cPanel deployment, email DNS
+              authentication, and Google Search Console. Author of two
+              conference papers published on IEEE Xplore.
             </p>
           </div>
           <div className=" xl:w-1/2">
