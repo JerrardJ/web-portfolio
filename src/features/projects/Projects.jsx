@@ -21,6 +21,8 @@ function projects() {
                 img={p.image}
                 srcCode={p.sourceCode}
                 demo={p.demo}
+                showSourceCode={p.showSourceCode}
+                showDemo={p.showDemo}
                 tags={p.tags}
               />
             );

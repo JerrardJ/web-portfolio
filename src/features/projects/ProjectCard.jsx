@@ -1,7 +1,16 @@
 import Tag from "./Tag";
 
 /* eslint-disable react/prop-types */
-function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
+function ProjectCard({
+  img,
+  title,
+  desc,
+  tags,
+  srcCode,
+  demo,
+  showSourceCode = true,
+  showDemo = true,
+}) {
   return (
     <div className="flex  max-w-xs cursor-pointer flex-col rounded-xl bg-achievementBg text-textColor hover:shadow-lg">
       <img src={img} className=" h-[160px] rounded-b-xl rounded-t-lg" alt="" />
@@ -9,7 +18,7 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
       <div className="flex flex-col gap-y-2 p-4">
         <h2 className=" text-2xl font-semibold">{title}</h2>
         <p
-          className=" text-base font-medium text-justify"
+          className=" text-justify text-base font-medium"
           dangerouslySetInnerHTML={{ __html: desc }}
         ></p>
         <div className="">
@@ -18,14 +27,26 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
           })}
         </div>
         <div className="space-x-2">
-          <a
-            href={srcCode}
-            className="  px-1 py-1 text-lg font-semibold underline  decoration-accentColor hover:bg-accentColor"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Source Code
-          </a>
+          {srcCode && showSourceCode && (
+            <a
+              href={srcCode}
+              className="px-1 py-1 text-lg font-semibold underline  decoration-accentColor hover:bg-accentColor"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source Code
+            </a>
+          )}
+          {demo && showDemo && (
+            <a
+              href={demo}
+              className="px-1 py-1 text-lg font-semibold underline  decoration-accentColor hover:bg-accentColor"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          )}
         </div>
       </div>
     </div>
